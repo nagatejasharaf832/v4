@@ -1,15 +1,16 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
+title: 'Marketplace Integrations'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+external: 'go.vdezi.com'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Python
+  - Node js
+  - Rabbit MQ
+  - Redis
+  - Microservices
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+In Ecommerce Platform I have integrated all marketplaces like Amazon, Flipkart, eBay, Bonanza, Lazada, Wish,
+BigCommerce, Shopify and all the services offered by those marketplaces has been integrated into the Ecommerce
+platform.

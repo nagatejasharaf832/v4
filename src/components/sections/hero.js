@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
+import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { mixins } from '@styles';
 // import { email } from '@config';
-
+const StyledEmailLink = styled.a`
+  ${mixins.bigButton};
+  margin-top: 50px;
+`;
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
@@ -58,9 +63,9 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>Hello World! My name is</h1>;
   const two = <h2 className="big-heading">Nagatheja Sharaf.</h2>;
-  const three = <h3 className="big-heading">I love to learn new Technologies.</h3>;
+  const three = <h3 className="big-heading">I love learning new things!</h3>;
   const four = (
     <>
       <p>
@@ -70,14 +75,9 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Check out my course!
-    </a>
+    <div style={{ transitionDelay: '500ms' }}>
+      <StyledEmailLink href={`mailto:${email}`}>Mail Me!</StyledEmailLink>
+    </div>
   );
 
   const items = [one, two, three, four, five];

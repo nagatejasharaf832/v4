@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Nagatheja Sharaf',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Nagatheja Sharaf is a Backend Software Engineer and a student at Indiana University Bloomington',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',

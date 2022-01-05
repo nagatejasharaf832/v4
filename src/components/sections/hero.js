@@ -70,7 +70,7 @@ const Hero = () => {
     <>
       <p>
         I am a backend software engineer focused on building scalable and efficient software
-        systems.
+        systems. I am currently a student at Indiana University Bloomington.
       </p>
     </>
   );

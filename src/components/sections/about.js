@@ -127,15 +127,19 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Python',
-    'Node js',
-    'C,C++,Java Basics',
-    'Object Oriented Programming',
-    'Database Management, MySQL, MongoDB, Redis',
-    'RabbitMq',
-    'Microservices Architechture, AWS',
-    'Design Patterns, Restful Implementation',
-    'Artificial Intelligence Algorithms',
+    'Python, C, C++, Java',
+    'Node js, React js, Javascript',
+    'SQL, Bash, Object Oriented Programming',
+    'Database Management, MySQL, MongoDB',
+    'Oracle, DynamoDB, Elasticsearch',
+    'GCP, AWS, Azure, Athena, Cloudwatch, API Gateway',
+    'Docker, Kubernetes, S3, EC2, SNS, SQS, Lex, Lambda',
+    'Git, Bit bucket, Jenkins, Visualstudio Code',
+    'Eclipse, JIRA, MATLAB',
+    'Microservices Architechture, Design Patterns, Restful Implementation',
+    'RabbitMq, Redis, Kafka',
+    'Flask, Django, Multithreading, Linux',
+    'Tableau, Autodesk, ServiceNow',
   ];
 
   return (
@@ -146,13 +150,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello!, I am currently pursuing my master's degree at{' '}
-              <a href="https://www.indiana.edu">Indiana University Bloomington</a>, . also has
-              experience as software developer focusing on backend technologies at{' '}
-              <a href="https://eunimart.com">Eunimart</a>, . I have completed my bachelors degree
-              from <a href="https://www.kluniversity.in">KL University</a>, with 8.3 GPA. Today, I'm
-              currently doing my majors in computer science and completed some important courses
-              like Computer Networks, Artificial Intelligence.
+              Hello!, I am a highly qualified software developer with a master's degree in computer
+              science from <a href="https://www.indiana.edu">Indiana University Bloomington</a>,
+              where I earned an exceptional 3.8 GPA. My expertise lies in developing efficient
+              backend technologies, honed through experience at{' '}
+              <a href="https://eunimart.com">Eunimart</a> and{' '}
+              <a href="https://amazon.com">Amazon</a> . My academic background includes a bachelor's
+              degree in computer science from{' '}
+              <a href="https://www.kluniversity.in">KL University</a>, where I achieved an
+              impressive 8.3 GPA. My coursework included a range of important subjects, such as
+              Computer Networks, Artificial Intelligence, Software Engineering, Machine Learning,
+              Data Mining, and Applied Algorithms. I am a dedicated professional with a passion for
+              delivering quality software solutions.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

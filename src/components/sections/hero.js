@@ -69,8 +69,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a backend software engineer focused on building scalable and efficient software
-        systems. I am currently a student at Indiana University Bloomington.
+        As a backend software engineer with a master's degree in computer science, I specialize in
+        designing and implementing highly scalable and efficient software systems. My academic
+        training was acquired through Indiana University Bloomington.
       </p>
     </>
   );

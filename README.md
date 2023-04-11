@@ -1,8 +1,10 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/nagatejasharaf832/v4/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
+<a href="https://nagatejasharaf.tech">
   nagatejasharaf.tech
+  </a>
 </h1>
 <p align="center">
   <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
@@ -10,7 +12,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/nagatejasharaf832/v4/main/src/images/demo.png)
 
 ### TL;DR
 
